@@ -9,6 +9,9 @@ public class FizzBuzz {
         if (n % 5 == 0) {
             return "Buzz";
         }
+        if (n % 7 == 0) {
+            return "Whizz";
+        }
         return "" + n;
     }
 }

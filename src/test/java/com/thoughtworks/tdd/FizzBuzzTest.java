@@ -21,7 +21,7 @@ public class FizzBuzzTest {
     public void test_the_number_when_n_is_not_divisible_by_neither_3_or_5() {
 
         int n = 1;
-        Assert.assertEquals(1, fizzBuzz.fizzBuzz(n));
+        Assert.assertEquals("1", fizzBuzz.fizzBuzz(n));
     }
 
     @Test
@@ -37,5 +37,9 @@ public class FizzBuzzTest {
     }
 
 
-
+    @Test
+    public void test_get_Whizz_when_n_is_divisible_by_7() {
+        int n = 7;
+        Assert.assertEquals("Whizz", fizzBuzz.fizzBuzz(n));
+    }
 }
