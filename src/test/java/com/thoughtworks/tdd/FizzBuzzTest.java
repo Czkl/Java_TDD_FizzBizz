@@ -24,6 +24,12 @@ public class FizzBuzzTest {
         Assert.assertEquals(1, fizzBuzz.fizzBuzz(n));
     }
 
+    @Test
+    public void test_get_Fizz_when_n_is_divisible_by_3() {
+        int n = 3;
+        Assert.assertEquals("Fizz", fizzBuzz.fizzBuzz(n));
+    }
+
 
 
 
