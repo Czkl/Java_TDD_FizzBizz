@@ -48,4 +48,16 @@ public class FizzBuzzTest {
         int n=15;
         Assert.assertEquals("FizzBuzz", fizzBuzz.fizzBuzz(n));
     }
+
+    @Test
+    public void test_get_FizzWhizz_when_n_is_divisible_by_3_and_7() {
+        int n = 21;
+        Assert.assertEquals("FizzWhizz", fizzBuzz.fizzBuzz(n));
+    }
+
+    @Test
+    public void test_get_BuzzWhizz_when_n_is_divisible_by_5_and_7() {
+        int n = 35;
+        Assert.assertEquals("BuzzWhizz", fizzBuzz.fizzBuzz(n));
+    }
 }

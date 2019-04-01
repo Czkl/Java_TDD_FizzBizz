@@ -11,7 +11,7 @@ public class FizzBuzz {
             result += "Buzz";
         }
         if (n % 7 == 0) {
-            return "Whizz";
+            result += "Whizz";
         }
         return result==""?n+"":result;
     }
