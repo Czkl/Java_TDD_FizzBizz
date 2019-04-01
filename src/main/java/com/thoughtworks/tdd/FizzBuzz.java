@@ -3,15 +3,16 @@ package com.thoughtworks.tdd;
 public class FizzBuzz {
 
     public String fizzBuzz(int n) {
+        String result = "";
         if (n % 3 == 0) {
-            return "Fizz";
+            result += "Fizz";
         }
         if (n % 5 == 0) {
-            return "Buzz";
+            result += "Buzz";
         }
         if (n % 7 == 0) {
             return "Whizz";
         }
-        return "" + n;
+        return result==""?n+"":result;
     }
 }
