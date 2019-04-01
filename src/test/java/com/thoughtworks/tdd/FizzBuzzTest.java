@@ -30,6 +30,11 @@ public class FizzBuzzTest {
         Assert.assertEquals("Fizz", fizzBuzz.fizzBuzz(n));
     }
 
+    @Test
+    public void test_get_Buzz_when_n_is_divisible_by_5() {
+        int n = 5;
+        Assert.assertEquals("Buzz", fizzBuzz.fizzBuzz(n));
+    }
 
 
 
