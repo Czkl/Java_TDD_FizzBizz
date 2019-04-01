@@ -60,4 +60,10 @@ public class FizzBuzzTest {
         int n = 35;
         Assert.assertEquals("BuzzWhizz", fizzBuzz.fizzBuzz(n));
     }
+
+    @Test
+    public void test_get_FizzBuzzWhizz_when_n_is_divisible_by_3_and_5_and_7() {
+        int n = 105;
+        Assert.assertEquals("FizzBuzzWhizz", fizzBuzz.fizzBuzz(n));
+    }
 }
